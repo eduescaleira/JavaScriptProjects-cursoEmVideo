@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Modelo de Exercício</title>
+    <title>Verificador de idade</title>
     <link rel="stylesheet" href="estilo.css">
 
 </head>
 <body>
     <header>
-        Hora do Dia
+        Verificador de idade
     </header>
     <section>
-        <div> Agora são horas. </div>
-        <div>Aqui vai uma foto</div>
+        <div> 
+            <p>Ano de Nascimento:
+            <input type="number" name="txtano" id="txtano" min="0">
+            </p>  
+            <p>Sexo:
+              <input type="radio" name="radsex" id="masc" checked>
+              <label for="mas">Masculino</label>  
+              <input type="radio" name="radsex" id="fem" >
+              <label for="fem">Feminino</label>  
+            </p>  
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
+        </div>
+        <div id="res">
+           <p> Preencha os dados acima para ver o resultado</p>
+        </div>
     </section>
     <footer>
        <p>&copy; EduEscaleira</p>
