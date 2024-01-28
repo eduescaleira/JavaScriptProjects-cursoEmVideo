@@ -1,0 +1,2 @@
+JavaScript é a principal linguagem Web da atualidade. Está presente também no mundo mobile e é indispensável quando falamos de aplicações ricas, não somente para a Web mas também para dispositivos móveis (Android, iOS) e até mesmo aplicações Desktop.
+Nesse curso, pude aprender desde os conceitos básicos da linguagem, passando por tipos de dados, estruturas de controle e condicionais, orientação a objetos até os tópicos mais avançados de programação assíncrona.
